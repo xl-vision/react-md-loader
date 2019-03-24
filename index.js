@@ -67,8 +67,9 @@ function renderModule(imports, jsx) {
 }
 module.exports = function (source) {
     this.cacheable()
+    const options = utils.getOptions(this)
 
-    const { imports, mdOptions, plugins, preProcess, postProcess, rules } = Object.assign({}, defaultOptions, utils.getOptions(this))
+    const { imports, mdOptions, plugins, preProcess, postProcess, rules } = Object.assign({}, defaultOptions, options)
     
     const md = new MarkdownIt(mdOptions)
 
