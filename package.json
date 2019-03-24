@@ -1,0 +1,32 @@
+{
+  "name": "@xl-vision/react-md-loader",
+  "version": "0.0.1-beta.1",
+  "description": "The webpack loader for markdown file in react project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xl-vision/react-md-loader.git"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "loader",
+    "markdown",
+    "markdown-it"
+  ],
+  "author": "Rhys Xia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xl-vision/react-md-loader/issues"
+  },
+  "homepage": "https://github.com/xl-vision/react-md-loader#readme",
+  "dependencies": {
+    "front-matter": "^3.0.1",
+    "highlight.js": "^9.15.6",
+    "markdown-it": "^8.4.2",
+    "markdown-it-container": "^2.0.0"
+  }
+}
